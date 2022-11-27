@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miraquel.Server", "Miraquel\Server\Miraquel.Server.csproj", "{FC28B518-1501-4559-8737-4EF674699766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miraquel.Client", "Miraquel\Client\Miraquel.Client.csproj", "{C3B0166F-612D-43CD-8E3E-4DBCBF0269EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miraquel.Shared", "Miraquel\Shared\Miraquel.Shared.csproj", "{B26AF07E-323A-445A-8953-6C2D1437A444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miraquel.Server.Tests", "Miraquel.Server.Tests\Miraquel.Server.Tests.csproj", "{07A9A880-4B86-44DA-987C-D8B15E4DEAFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Posts", "Posts", "{15F1F870-09DB-4491-B0AE-108CBB441E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comments", "Comments", "{7BFA9D79-54C9-42EC-98ED-75F347479F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miraquel.Posts.Domain", "Miraquel.Posts.Domain\Miraquel.Posts.Domain.csproj", "{BE4BA6FA-9EC2-4032-B134-55D32BA077DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC28B518-1501-4559-8737-4EF674699766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC28B518-1501-4559-8737-4EF674699766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC28B518-1501-4559-8737-4EF674699766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC28B518-1501-4559-8737-4EF674699766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B0166F-612D-43CD-8E3E-4DBCBF0269EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B0166F-612D-43CD-8E3E-4DBCBF0269EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B0166F-612D-43CD-8E3E-4DBCBF0269EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B0166F-612D-43CD-8E3E-4DBCBF0269EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26AF07E-323A-445A-8953-6C2D1437A444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26AF07E-323A-445A-8953-6C2D1437A444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26AF07E-323A-445A-8953-6C2D1437A444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26AF07E-323A-445A-8953-6C2D1437A444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A9A880-4B86-44DA-987C-D8B15E4DEAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A9A880-4B86-44DA-987C-D8B15E4DEAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A9A880-4B86-44DA-987C-D8B15E4DEAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A9A880-4B86-44DA-987C-D8B15E4DEAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4BA6FA-9EC2-4032-B134-55D32BA077DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4BA6FA-9EC2-4032-B134-55D32BA077DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4BA6FA-9EC2-4032-B134-55D32BA077DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4BA6FA-9EC2-4032-B134-55D32BA077DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE4BA6FA-9EC2-4032-B134-55D32BA077DB} = {15F1F870-09DB-4491-B0AE-108CBB441E2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CBF60A8-5C5E-4FBB-97B4-095DF274734F}
+	EndGlobalSection
+EndGlobal
